@@ -13,7 +13,7 @@ setup(
     url="https://github.com/debraj86/dvc-ml-demo-AIOps",
     author_email="debraj86ghosh@gmail.com",
     packages=["src"],
-    python_requires="3.7",
+    python_requires=">=3.7",
     install_requires=[
         'dvc',
         'pandas',
