@@ -1,4 +1,4 @@
-"dvc-ml-demo-AIOps" 
+"dvc-ml-demo-AIOps" \
 move to the folder \2_26th_sep_2021\
 echo "# dvc-ml-demo-AIOps" >> README.md
 git init
