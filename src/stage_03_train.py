@@ -35,6 +35,7 @@ def train(config_path, params_path):
     
     create_directory([model_dir])
     model_path = os.path.join(model_dir, model_filename)
+    joblib.dump(lr, model_path)
 
 
 if __name__ == '__main__':
