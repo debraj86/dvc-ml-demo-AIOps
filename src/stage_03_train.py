@@ -27,7 +27,7 @@ def train(config_path, params_path):
     l1_ratio = params["model_params"]["ElasticNet"]["l1_ratio"]
     random_state = params["base"]["random_state"]
 
-    lr = ElasticNet(alpha=alpha, L1_ratio=l1_ratio, random_state=random_state)
+    lr = ElasticNet(alpha=alpha, l1_ratio=l1_ratio, random_state=random_state)
     lr.fit(train_x, train_y)
     model_dir = config["artifacts"]["model_dir"]
     model_filename = config["artifacts"]["model_filename"]
