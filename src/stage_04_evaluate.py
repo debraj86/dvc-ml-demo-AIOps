@@ -43,7 +43,7 @@ def evaluate(config_path, params_path):
     scores_filename = config["artifacts"]["scores"]
     scores_dir_path = os.path.join(artifacts_dir, scores_dir)
     create_directory([scores_dir_path])
-    scores_filepath = os.path.join(artifacts_dir, scores_filename)
+    scores_filepath = os.path.join(scores_dir_path, scores_filename)
     scores = {
         "rmse": rmse,
         "mae": mae,
